@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.success-text {
+  font-size: 20px;
+  color: green;
+}
+
+.failure-text {
+  font-size: 20px;
+  color: red;
+}
